@@ -18,6 +18,6 @@ client.on('message', message => {
     }
 });
 
-client.login('NzgxNDAzNzg3NTA3MjY5NjMy.X79I_A.5L8KZ-mruy3dUV1anbJt5rMBU8w');
+client.login('YOUR_DISCORD_BOT_TOKEN');
 
 require('http').createServer((req, res) => res.end('Bot is alive!')).listen(3000)
